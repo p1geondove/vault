@@ -10,7 +10,8 @@ You see a example json in the project. This is the expected Format for the vault
 
 ## Usage
 
-If you are on windows i suggest checking out the latest builds
+I also provide linux and windows binaries. On the right is a releases page, there you can find downloads to both
+There wont be MacOs binaries bc i cant be arsed to set that up, or better ye but apple silicon...
 
 ### Download and launch from source
  - `git clone https://github.com/p1geondove/vault`
