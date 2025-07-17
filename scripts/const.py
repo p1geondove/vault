@@ -1,5 +1,5 @@
 from __future__ import annotations
-
+import sys
 import os
 import pygame
 
@@ -15,8 +15,8 @@ def resource_path(relative_path):
 
 pygame.font.init()
 class Font:
-    small = pygame.Font(resource_path('/home/p1geon/Documents/code/vault/assets/AgaveNerdFontMono-Regular.ttf'),12)
-    medium = pygame.Font(resource_path('/home/p1geon/Documents/code/vault/assets/AgaveNerdFontMono-Regular.ttf'),20)
+    small = pygame.Font(resource_path('assets/AgaveNerdFontMono-Regular.ttf'),12)
+    medium = pygame.Font(resource_path('assets/AgaveNerdFontMono-Regular.ttf'),20)
 
 class Size:
     winsize_login = 200, 300
@@ -41,6 +41,6 @@ class Colors:
     table_highlite_word = pygame.Color('#755530')
 
 class Misc:
-    logo = pygame.image.load_sized_svg(resource_path('/home/p1geon/Documents/code/vault/assets/logo.svg'),(50,50))
+    logo = pygame.image.load_sized_svg(resource_path('assets/logo.svg'),(50,50))
     pepper = b'neaN\xf7\xb8\xf9\xe3M/w\xfd\x86{\xd06\x07\xd2\xb1\xbfD"I\xaf\xd0\xa8\xc5\xc9N\xba~\x88'
     seperator = b"\xb2]\x0f\xd9?\xbf^aI\xc3kb\x0bm\xa0\xf9\xa1{\x90\xfa\xbd'\xc2\x15\xa5c\x11\xde\xec\xd6\xd7\xaa"
