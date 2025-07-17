@@ -11,7 +11,7 @@ You see a example json in the project. This is the expected Format for the vault
 ## Usage
 
 I also provide linux and windows binaries. On the right is a releases page, there you can find downloads to both
-There wont be MacOs binaries bc i cant be arsed to set that up, or better ye but apple silicon...
+There wont be MacOs binaries bc i cant be arsed to set that up, or better yet buy apple silicon...
 
 ### Download and launch from source
  - `git clone https://github.com/p1geondove/vault`
